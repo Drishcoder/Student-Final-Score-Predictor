@@ -81,9 +81,8 @@ st.markdown("""
 
 @st.cache_resource
 def load_and_train_model():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(base_dir, "..", "student_final_score_predictor", "Students_Performance_Synthetic_5000.csv")
-    data = pd.read_csv(csv_path)
+    
+    data = pd.read_csv("Students_Performance_Synthetic_5000.csv")
 
     FEATURES = [
         "Study_Hours_per_Week", "Attendance (%)",
