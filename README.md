@@ -175,7 +175,7 @@ This project is provided as-is for educational purposes.
 
 ## 👨‍💼 Author
 
-Created as part of Machine Learning coursework for student performance prediction.
+Created by Rishit Adhangale as part of Machine Learning coursework for student performance prediction.
 
 ---
 
