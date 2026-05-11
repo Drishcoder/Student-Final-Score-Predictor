@@ -98,12 +98,11 @@ The app will open in your default browser at `http://localhost:8501`
 ## 📁 File Structure
 
 ```
-advproject/
+/Student-Final-Score-Predictor
 ├── app.py                              # Main Streamlit application
 ├── README.md                           # This file
-├── streamlitwebapp.py                  # Alternative implementation
+
 ├── student_performance_model.py        # Model training script
-└── student_final_score_predictor/
     └── Students_Performance_Synthetic_5000.csv   # Training dataset
 ```
 
